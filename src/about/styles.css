@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+
+.about-container {
+  box-sizing: border-box;
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+
+
+  background-color: orange;
+  padding-top: 25px;
+}
+
+.about-title {
+  font-family: 'Pacifico', cursive;
+  font-size: 5vh;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.breakpoint {
+  height: 10px;
+  width: 225px;
+  color: grey;
+}
