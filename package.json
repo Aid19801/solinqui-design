@@ -1,6 +1,16 @@
 {
   "name": "solinqui_design",
   "version": "0.1.0",
+  "description": "SPA for Solinqui Design",
+
+  "engines": {
+    "node": "6.11.3"
+  },
+  "main": "src/registerServiceWorker.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aid19801/solinqui"
+  },
   "private": true,
   "dependencies": {
     "react": "^16.2.0",
