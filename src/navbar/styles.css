@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+div.App div nav a.top-right-brandname {
+  color: grey;
+  font-family: 'Pacifico', cursive;
+}

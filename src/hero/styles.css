@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis');
 
 .hero-container {
-    padding-bottom: 10px; 
+    padding-bottom: 10px;
 }
 
 .hero {
@@ -9,6 +9,7 @@
   background-color: rgba(0, 0, 0, 0.6);
   margin-left: 10%;
   margin-right: 10%;
+  /* min-height: 200vh; */
 }
 
 .company-name {
@@ -54,4 +55,11 @@ ul li input.submit-btn:hover {
 hr.separator {
   border: none;
   border-bottom: 3px solid orange;
+}
+
+@media only screen and (min-width: 750px) {
+    .hero {
+      padding-bottom: 10vh;
+      padding-top: 10vh;
+    }
 }

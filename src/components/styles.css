@@ -1,25 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
 
 .box-style {
   box-sizing: border-box;
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
-
-  border: 1px solid orange;
   background-color: rgba(0, 0, 0, 0.3);
-  padding: 20px 20px 20px 20px;
-  height: 225px;
+  height: 120px;
   border-radius: 50%;
-  border: 10px solid white;
 }
 
 .box-blurb {
   font-family: Dosis;
+  color: white;
+  padding-bottom: 1vh;
 }
 
 .step {
-  font-family: Dosis;
+  font-family: 'Pacifico', cursive;
 }
 
 .box-heading {
   font-family: Dosis;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+.img-container {
+  padding-bottom: 3vh;
 }
